@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn{
+    margin: 10px 3rem;
+    padding: 500px;
+    height: 10rem;
+    width: 15rem;
+  }
+  
+  .heading{
+    margin-bottom: 3rem;
+  }
+  
+  #hiddenInput{
+    transform: translateX(5000px);
+  }
