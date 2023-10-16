@@ -12,16 +12,14 @@
 
 <body>
 
-  <div class="container">
-    <input type="text" id="hiddenInput">
-    <h1 class="heading">Password Generator</h1>
-    <div class=main">
-      <button onclick="showPasswordModal(0)" type="button" class="btn btn-success btn-lg">Super Strong Password</button>
-      <button onclick="showPasswordModal(1)" type="button" class="btn btn-primary btn-lg">Strong Password</button>
-    </div>
-    <div class="main">
-      <button onclick="showPasswordModal(2)" type="button" class="btn btn-warning btn-lg">Weak Password</button>
-      <button onclick="showPasswordModal(3)" type="button" class="btn btn-info btn-lg">Funny Password</button>
+  <div class="container px-5 py-md-5 py-sm-2 overflow-hidden">
+    <input type="text" id="hiddenInput" style="transform: translateX(5000px);">
+    <h1 class="heading text-center my-5">Password Generator</h1>
+    <div class="main row d-flex justify-content-center">
+      <button onclick="showPasswordModal(0)" type="button" class="btn btn-success btn-lg col-md-5 col-sm-10 py-5 m-3">Super Strong Password</button>
+      <button onclick="showPasswordModal(1)" type="button" class="btn btn-primary btn-lg col-md-5 col-sm-10 py-5 m-3">Strong Password</button>
+      <button onclick="showPasswordModal(2)" type="button" class="btn btn-warning btn-lg col-md-5 col-sm-10 py-5 m-3">Weak Password</button>
+      <button onclick="showPasswordModal(3)" type="button" class="btn btn-info btn-lg col-md-5 col-sm-10 py-5 m-3">Funny Password</button>
     </div>
   </div>
 
